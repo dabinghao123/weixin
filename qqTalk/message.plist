@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，是的你好</string>
+		<key>time</key>
+		<string>前天 10：34</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>说到多线程就不得不提多线程中的锁机制，多线程操作过程中往往多个线程是并发执行的，同一个资源可能被多个线程同时访问，造成资源抢夺，这个过程中如果没有锁机制往往会造成重大问题。举例来说，每年春节都是一票难求，在12306买票的过程中，成百上千的票瞬间就消失了。不妨假设某辆车有1千张票，同时有几万人在抢这列车的车票，顺利的话前面的人都能买到票。但是如果现在只剩下一张票了，而同时还有几千人在购买这张票，虽然在进入购票环节的时候会判断当前票数，但是当前已经有100个线程进入购票的环节，每个线程处理完票数都会减1,100个线程执行完当前票数为-99，遇到这种情况很明显是不允许的</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>通过NSThread的currentThread可以取得当前操作的线程，其中会记录线程名称name和编号number，需要注意主线程编号永远为1。多个线程虽然按顺序启动，但是实际执行未必按照顺序加载照片（loadImage:方法未必依次创建，可以通过在loadImage:中打印索引查看），因为线程启动后仅仅处于就绪状态，实际是否执行要由CPU根据当前状态调度。
+
+从上面的运行效果大家不难发现，图片并未按顺序加载，原因有两个：第一，每个线程的实际执行顺序并不一定按顺序执行（虽然是按顺序启动）；第二，每个线程执行时实际网络状况很可能不一致。当然网络问题无法改变，只能尽可能让网速更快，但是可以改变线程的优先级，让15个线程优先执行某个线程。线程优先级范围为0~1，值越大优先级越高，每个线程的优先级默认为0.5。修改图片下载方法如下，改变最后一张图片加载的优先级，这样可以提高它被优先加载的几率，但是它也未必就第一个加载。因为首先其他线程是先启动的，其次网络状况我们没办法修改</string>
+		<key>time</key>
+		<string>前天 10：25</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>哦 ，你好</string>
+		<key>time</key>
+		<string>前天 10：29</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

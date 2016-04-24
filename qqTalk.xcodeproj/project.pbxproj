@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B6072C1CCB4C3500FC0FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6072B1CCB4C3500FC0FE7 /* main.m */; };
+		01B6072F1CCB4C3500FC0FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6072E1CCB4C3500FC0FE7 /* AppDelegate.m */; };
+		01B607321CCB4C3500FC0FE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B607311CCB4C3500FC0FE7 /* ViewController.m */; };
+		01B607351CCB4C3500FC0FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B607331CCB4C3500FC0FE7 /* Main.storyboard */; };
+		01B607371CCB4C3500FC0FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B607361CCB4C3500FC0FE7 /* Assets.xcassets */; };
+		01B6073A1CCB4C3500FC0FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B607381CCB4C3500FC0FE7 /* LaunchScreen.storyboard */; };
+		01B607441CCB5E5200FC0FE7 /* message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B607431CCB5E5200FC0FE7 /* message.plist */; };
+		01B607471CCB5EDA00FC0FE7 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B607461CCB5EDA00FC0FE7 /* Message.m */; };
+		01B6074B1CCB669300FC0FE7 /* MessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6074A1CCB669300FC0FE7 /* MessageFrame.m */; };
+		01B6074F1CCB723800FC0FE7 /* MessageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6074E1CCB723800FC0FE7 /* MessageCellTableViewCell.m */; };
+		01B607531CCB869900FC0FE7 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B607521CCB869900FC0FE7 /* NSString+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B607271CCB4C3400FC0FE7 /* qqTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qqTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B6072B1CCB4C3500FC0FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01B6072D1CCB4C3500FC0FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01B6072E1CCB4C3500FC0FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01B607301CCB4C3500FC0FE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01B607311CCB4C3500FC0FE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01B607341CCB4C3500FC0FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01B607361CCB4C3500FC0FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B607391CCB4C3500FC0FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01B6073B1CCB4C3500FC0FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B607431CCB5E5200FC0FE7 /* message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = message.plist; sourceTree = "<group>"; };
+		01B607451CCB5EDA00FC0FE7 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		01B607461CCB5EDA00FC0FE7 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		01B607491CCB669300FC0FE7 /* MessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFrame.h; sourceTree = "<group>"; };
+		01B6074A1CCB669300FC0FE7 /* MessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFrame.m; sourceTree = "<group>"; };
+		01B6074D1CCB723800FC0FE7 /* MessageCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCellTableViewCell.h; sourceTree = "<group>"; };
+		01B6074E1CCB723800FC0FE7 /* MessageCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCellTableViewCell.m; sourceTree = "<group>"; };
+		01B607511CCB869900FC0FE7 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		01B607521CCB869900FC0FE7 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B607241CCB4C3400FC0FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B6071E1CCB4C3400FC0FE7 = {
+			isa = PBXGroup;
+			children = (
+				01B607291CCB4C3500FC0FE7 /* qqTalk */,
+				01B607281CCB4C3400FC0FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B607281CCB4C3400FC0FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B607271CCB4C3400FC0FE7 /* qqTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B607291CCB4C3500FC0FE7 /* qqTalk */ = {
+			isa = PBXGroup;
+			children = (
+				01B607501CCB864300FC0FE7 /* Catetory */,
+				01B6074C1CCB721B00FC0FE7 /* Views */,
+				01B6072D1CCB4C3500FC0FE7 /* AppDelegate.h */,
+				01B6072E1CCB4C3500FC0FE7 /* AppDelegate.m */,
+				01B607301CCB4C3500FC0FE7 /* ViewController.h */,
+				01B607311CCB4C3500FC0FE7 /* ViewController.m */,
+				01B607331CCB4C3500FC0FE7 /* Main.storyboard */,
+				01B607361CCB4C3500FC0FE7 /* Assets.xcassets */,
+				01B607381CCB4C3500FC0FE7 /* LaunchScreen.storyboard */,
+				01B6073B1CCB4C3500FC0FE7 /* Info.plist */,
+				01B6072A1CCB4C3500FC0FE7 /* Supporting Files */,
+				01B607431CCB5E5200FC0FE7 /* message.plist */,
+				01B607481CCB665D00FC0FE7 /* models */,
+			);
+			path = qqTalk;
+			sourceTree = "<group>";
+		};
+		01B6072A1CCB4C3500FC0FE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B6072B1CCB4C3500FC0FE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01B607481CCB665D00FC0FE7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				01B607451CCB5EDA00FC0FE7 /* Message.h */,
+				01B607461CCB5EDA00FC0FE7 /* Message.m */,
+				01B607491CCB669300FC0FE7 /* MessageFrame.h */,
+				01B6074A1CCB669300FC0FE7 /* MessageFrame.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		01B6074C1CCB721B00FC0FE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01B6074D1CCB723800FC0FE7 /* MessageCellTableViewCell.h */,
+				01B6074E1CCB723800FC0FE7 /* MessageCellTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		01B607501CCB864300FC0FE7 /* Catetory */ = {
+			isa = PBXGroup;
+			children = (
+				01B607511CCB869900FC0FE7 /* NSString+Size.h */,
+				01B607521CCB869900FC0FE7 /* NSString+Size.m */,
+			);
+			name = Catetory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B607261CCB4C3400FC0FE7 /* qqTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B6073E1CCB4C3500FC0FE7 /* Build configuration list for PBXNativeTarget "qqTalk" */;
+			buildPhases = (
+				01B607231CCB4C3400FC0FE7 /* Sources */,
+				01B607241CCB4C3400FC0FE7 /* Frameworks */,
+				01B607251CCB4C3400FC0FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qqTalk;
+			productName = qqTalk;
+			productReference = 01B607271CCB4C3400FC0FE7 /* qqTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B6071F1CCB4C3400FC0FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = binghuang;
+				TargetAttributes = {
+					01B607261CCB4C3400FC0FE7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E8NHJ674FN;
+					};
+				};
+			};
+			buildConfigurationList = 01B607221CCB4C3400FC0FE7 /* Build configuration list for PBXProject "qqTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B6071E1CCB4C3400FC0FE7;
+			productRefGroup = 01B607281CCB4C3400FC0FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B607261CCB4C3400FC0FE7 /* qqTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B607251CCB4C3400FC0FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B607441CCB5E5200FC0FE7 /* message.plist in Resources */,
+				01B6073A1CCB4C3500FC0FE7 /* LaunchScreen.storyboard in Resources */,
+				01B607371CCB4C3500FC0FE7 /* Assets.xcassets in Resources */,
+				01B607351CCB4C3500FC0FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B607231CCB4C3400FC0FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B607321CCB4C3500FC0FE7 /* ViewController.m in Sources */,
+				01B6074F1CCB723800FC0FE7 /* MessageCellTableViewCell.m in Sources */,
+				01B607471CCB5EDA00FC0FE7 /* Message.m in Sources */,
+				01B6074B1CCB669300FC0FE7 /* MessageFrame.m in Sources */,
+				01B607531CCB869900FC0FE7 /* NSString+Size.m in Sources */,
+				01B6072F1CCB4C3500FC0FE7 /* AppDelegate.m in Sources */,
+				01B6072C1CCB4C3500FC0FE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01B607331CCB4C3500FC0FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B607341CCB4C3500FC0FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01B607381CCB4C3500FC0FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B607391CCB4C3500FC0FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B6073C1CCB4C3500FC0FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01B6073D1CCB4C3500FC0FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B6073F1CCB4C3500FC0FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = qqTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uplay.qqTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01B607401CCB4C3500FC0FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = qqTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uplay.qqTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B607221CCB4C3400FC0FE7 /* Build configuration list for PBXProject "qqTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B6073C1CCB4C3500FC0FE7 /* Debug */,
+				01B6073D1CCB4C3500FC0FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B6073E1CCB4C3500FC0FE7 /* Build configuration list for PBXNativeTarget "qqTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B6073F1CCB4C3500FC0FE7 /* Debug */,
+				01B607401CCB4C3500FC0FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B6071F1CCB4C3400FC0FE7 /* Project object */;
+}
